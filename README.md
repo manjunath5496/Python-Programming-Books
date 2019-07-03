@@ -69,7 +69,7 @@
 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(41).pdf" style="text-decoration:none;">Tango with Django: A beginners guide to Python/Django</a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(40).pdf" style="text-decoration:none;">Programming Computer Vision with Python</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(42).pdf" style="text-decoration:none;">Programming Computer Vision with Python</a></b></li>
 
 
 
