@@ -59,36 +59,6 @@
 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(36).pdf" style="text-decoration:none;">Learn Python in One Day and Learn It Well</a></b></li>
 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(37).pdf" style="text-decoration:none;">PHP 7 from Scratch: A Streamlined Approach to Modern PHP Mastery</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(38).pdf" style="text-decoration:none;">Programming PHP</a></b></li>
- 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(39).pdf" style="text-decoration:none;">PHP Advanced and Object-Oriented Programming: Visual QuickPro Guide</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(40).pdf" style="text-decoration:none;">PHP 7 Data Structures and Algorithms</a></b></li>
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(41).pdf" style="text-decoration:none;">PHP Objects, Patterns, and Practice</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(30).pdf" style="text-decoration:none;">Building Web Apps with WordPress</a></b></li>
-
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(42).pdf" style="text-decoration:none;">PHP This! A Beginners Guide to Learning Object Oriented PHP</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(43).rar" style="text-decoration:none;">Mastering Drupal 8</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(44).pdf" style="text-decoration:none;">Core PHP Programming</a></b></li>
- 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(45).pdf" style="text-decoration:none;">Domain-Driven Design in PHP</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(46).pdf" style="text-decoration:none;">Easy PHP Websites with the Zend Framework</a></b></li>
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(47).pdf" style="text-decoration:none;">Modernizing Legacy Applications In PHP</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(48).pdf" style="text-decoration:none;">Learning PHP Data Objects</a></b></li>
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(49).pdf" style="text-decoration:none;">Node.js for PHP Developers</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(50).pdf" style="text-decoration:none;">Guide to HTML, JavaScript and PHP: For Scientists and Engineers</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(51).pdf" style="text-decoration:none;">The PHP Anthology</a></b></li>
-
- <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(52).pdf" style="text-decoration:none;">AJAX and PHP: Building Modern Web Applications</a></b></li>
 
 
 
