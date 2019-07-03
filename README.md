@@ -59,6 +59,18 @@
 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(36).pdf" style="text-decoration:none;">Learn Python in One Day and Learn It Well</a></b></li>
 
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(37).pdf" style="text-decoration:none;"> Web Scraping with Python</a></b></li>
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(38).pdf" style="text-decoration:none;">Introducing Python: Modern Computing in Simple Packages</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(39).pdf" style="text-decoration:none;">Lean Python: Learn Just Enough Python to Build Useful Tools</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(40).pdf" style="text-decoration:none;">Hadoop with Python</a></b></li>
+
+
+
+
+
 
 
 
