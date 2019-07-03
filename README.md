@@ -14,47 +14,50 @@
                                 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(10).pdf" style="text-decoration:none;">Deep Learning with Python</a></b></li>  
         
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(11).pdf" style="text-decoration:none;">Learning PHP: A Gentle Introduction to the Web's Most Popular Language</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(12).pdf" style="text-decoration:none;">Learning PHP 7 High Performance</a></b></li>
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(13).pdf" style="text-decoration:none;">Learning PHP 7</a></b></li>  
-  <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(14).pdf" style="text-decoration:none;">Learning PHP, MySQL and JavaScript</a></b></li>  
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(15).pdf" style="text-decoration:none;">Mastering PHP Design Patterns</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(16).pdf" style="text-decoration:none;">Modern PHP: New Features and Good Practices</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(11).pdf" style="text-decoration:none;">Dive into Python</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(12).pdf" style="text-decoration:none;">Fluent Python</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(13).pdf" style="text-decoration:none;">Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems</a></b></li>  
+  <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(14).rar" style="text-decoration:none;">Head First Python</a></b></li>  
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(15).pdf" style="text-decoration:none;">How to Think Like a Computer Scientist: Learning with Python 3 Documentation</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(16).pdf" style="text-decoration:none;">Invent Your Own Computer Games with Python</a></b></li>
 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(17).pdf" style="text-decoration:none;">Modular Programming with PHP 7</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(18).pdf" style="text-decoration:none;">Persistence in PHP with Doctrine ORM</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(17).pdf" style="text-decoration:none;">Learning Python</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(18).pdf" style="text-decoration:none;">Learn Python the Hard Way: A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code </a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(19).pdf" style="text-decoration:none;">PHP & MySQL: Novice to Ninja</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(19).pdf" style="text-decoration:none;">Natural Language Processing with Python</a></b></li>
 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(20).pdf" style="text-decoration:none;">PHP 7: Real World Application Development</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(21).pdf" style="text-decoration:none;"> PHP 7 Programming Blueprints </a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(20).pdf" style="text-decoration:none;">Python Crash Course: A Hands-On, Project-Based Introduction to Programming</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(21).rar" style="text-decoration:none;"> Programming Python </a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(22).pdf" style="text-decoration:none;">PHP 7 Programming Cookbook</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(22).pdf" style="text-decoration:none;">Python Essential Reference </a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(23).pdf" style="text-decoration:none;">PHP and MySQL Web Development</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(23).pdf" style="text-decoration:none;">Python for Kids: A Playful Introduction to Programming</a></b></li>
 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(24).pdf" style="text-decoration:none;">PHP Arrays: Single, Multi-dimensional, Associative and Object Arrays in PHP 7</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(24).pdf" style="text-decoration:none;">Python in a Nutshell</a></b></li>
                          
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(25).pdf" style="text-decoration:none;">PHP for the Web: Visual QuickStart Guide</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(25).pdf" style="text-decoration:none;">Python Pocket Reference</a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(26).pdf" style="text-decoration:none;">PHP in Action</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(26).pdf" style="text-decoration:none;">Python Cookbook</a></b></li>
 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(27).pdf" style="text-decoration:none;">PHP Objects, Patterns, and Practice</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(28).pdf" style="text-decoration:none;"> PHP Web Services</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(27).pdf" style="text-decoration:none;">Python Tricks: The Book</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(28).pdf" style="text-decoration:none;"> Python Data Science Handbook</a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(29).pdf" style="text-decoration:none;">PHP Solutions: Dynamic Web Design Made Easy</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(29).pdf" style="text-decoration:none;">Python for Data Analysis</a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(31).pdf" style="text-decoration:none;">Practical PHP and MySQL Website Databases: A Simplified Approach</a></b></li>
 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(32).pdf" style="text-decoration:none;">Professional PHP Design Patterns</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(30).pdf" style="text-decoration:none;">Python for Everybody: Exploring Data Using Python 3</a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(33).pdf" style="text-decoration:none;">Scaling PHP Applications</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(31).pdf" style="text-decoration:none;">The Hitchhiker's Guide to Python: Best Practices for Development</a></b></li>
 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(34).pdf" style="text-decoration:none;">Typed PHP: Stronger Types for Cleaner Code</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(32).pdf" style="text-decoration:none;">The Quick Python Book</a></b></li>
 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(35).pdf" style="text-decoration:none;">PHP Master: Write Cutting Edge Code</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(33).pdf" style="text-decoration:none;">Think Python: How to Think Like a Computer Scientist</a></b></li>
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(36).pdf" style="text-decoration:none;">PHP Reference: Beginner to Intermediate PHP5</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(34).pdf" style="text-decoration:none;"> Text Processing in Python</a></b></li>
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(35).pdf" style="text-decoration:none;">Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(36).pdf" style="text-decoration:none;">Learn Python in One Day and Learn It Well</a></b></li>
 
  <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(37).pdf" style="text-decoration:none;">PHP 7 from Scratch: A Streamlined Approach to Modern PHP Mastery</a></b></li>
 
