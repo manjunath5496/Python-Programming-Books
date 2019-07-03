@@ -1,18 +1,18 @@
 <ul>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(1).pdf" style="text-decoration:none;">Better PHP Development</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(2).pdf" style="text-decoration:none;">Building a Web Application with PHP and MariaDB: A Reference Guide</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(3).pdf" style="text-decoration:none;">The Joy of PHP: A Beginner's Guide to Programming Interactive Web Applications with PHP and mySQL</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(1).pdf" style="text-decoration:none;">Machine Learning in Python</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(2).pdf" style="text-decoration:none;">Python Programming: An Introduction to Computer Science</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(3).pdf" style="text-decoration:none;">High Performance Python</a></b></li>
                                
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(4).pdf" style="text-decoration:none;">PHP: A Beginner's Guide</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(5).pdf" style="text-decoration:none;">Getting Good With PHP</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(4).pdf" style="text-decoration:none;"> Effective Python : 59 specific ways to write better Python</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(5).pdf" style="text-decoration:none;">Automate the Boring Stuff with Python: Practical Programming for Total Beginners</a></b></li>
                                 
- <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(6).pdf" style="text-decoration:none;">Instant PHP Web Scraping</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(6).pdf" style="text-decoration:none;">Black Hat Python: Python Programming for Hackers and Pentesters</a></b></li>
                           
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(7).pdf" style="text-decoration:none;">Integrating Web Services with OAuth and PHP</a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(8).pdf" style="text-decoration:none;">Jump Start PHP Environment </a></b></li>
-                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(9).pdf" style="text-decoration:none;">Jump Start PHP</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(7).pdf" style="text-decoration:none;">Core Python Programming</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(8).pdf" style="text-decoration:none;">Data Science from Scratch </a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(9).pdf" style="text-decoration:none;">Data Structures and Algorithms Using Python</a></b></li>
                                 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(10).pdf" style="text-decoration:none;">Laravel: Up and Running - A Framework for Building Modern PHP Apps</a></b></li>  
+<li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(10).pdf" style="text-decoration:none;">Deep Learning with Python</a></b></li>  
         
 <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(11).pdf" style="text-decoration:none;">Learning PHP: A Gentle Introduction to the Web's Most Popular Language</a></b></li>
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/PHP-Programming-Books/blob/master/php(12).pdf" style="text-decoration:none;">Learning PHP 7 High Performance</a></b></li>
