@@ -140,7 +140,143 @@
 <p>Statements cannot be a part of an expression, so list and other comprehensions or&nbsp;<a class="mw-redirect" title="Lambda (programming)" href="https://en.wikipedia.org/wiki/Lambda_(programming)">lambda expressions</a>, all being expressions, cannot contain statements. A particular case of this is that an assignment statement such as&nbsp;<code>a = 1</code>&nbsp;cannot form part of the conditional expression of a conditional statement. This has the advantage of avoiding a classic C error of mistaking an assignment operator&nbsp;<code>=</code>&nbsp;for an equality operator&nbsp;<code>==</code>&nbsp;in conditions:&nbsp;<code>if (c = 1) { ... }</code>&nbsp;is syntactically valid (but probably unintended) C code but&nbsp;<code>if c = 1: ...</code>&nbsp;causes a syntax error in Python.</p>
 
 
-
+<h3><span id="Methods" class="mw-headline">Methods</span></h3>
+<p><a class="mw-redirect" title="Method (programming)" href="https://en.wikipedia.org/wiki/Method_(programming)">Methods</a>&nbsp;on objects are&nbsp;<a class="mw-redirect" title="Function (programming)" href="https://en.wikipedia.org/wiki/Function_(programming)">functions</a>&nbsp;attached to the object's class; the syntax&nbsp;<code>instance.method(argument)</code>&nbsp;is, for normal methods and functions,&nbsp;<a title="Syntactic sugar" href="https://en.wikipedia.org/wiki/Syntactic_sugar">syntactic sugar</a>&nbsp;for&nbsp;<code>Class.method(instance, argument)</code>. Python methods have an explicit&nbsp;<code><a title="This (computer programming)" href="https://en.wikipedia.org/wiki/This_(computer_programming)">self</a></code>&nbsp;parameter to access&nbsp;<a class="mw-redirect" title="Instance data" href="https://en.wikipedia.org/wiki/Instance_data">instance data</a>, in contrast to the implicit&nbsp;<code>self</code>&nbsp;(or&nbsp;<code>this</code>) in some other object-oriented programming languages (e.g.,&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>,&nbsp;<a title="Java (programming language)" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>,&nbsp;<a title="Objective-C" href="https://en.wikipedia.org/wiki/Objective-C">Objective-C</a>, or&nbsp;<a title="Ruby (programming language)" href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a>).</p>
+<h3><span id="Typing" class="mw-headline">Typing</span></h3>
+<div class="thumb tright">&nbsp;</div>
+<p>Python uses&nbsp;<a title="Duck typing" href="https://en.wikipedia.org/wiki/Duck_typing">duck typing</a>&nbsp;and has typed objects but untyped variable names. Type constraints are not checked at&nbsp;<a title="Compile time" href="https://en.wikipedia.org/wiki/Compile_time">compile time</a>; rather, operations on an object may fail, signifying that the given object is not of a suitable type. Despite being&nbsp;<a title="Type system" href="https://en.wikipedia.org/wiki/Type_system#Dynamic_type_checking_and_runtime_type_information">dynamically typed</a>, Python is&nbsp;<a class="mw-redirect" title="Strongly typed programming language" href="https://en.wikipedia.org/wiki/Strongly_typed_programming_language">strongly typed</a>, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.</p>
+<p>Python allows programmers to define their own types using&nbsp;<a class="mw-redirect" title="Class (computer science)" href="https://en.wikipedia.org/wiki/Class_(computer_science)">classes</a>, which are most often used for&nbsp;<a title="Object-oriented programming" href="https://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented programming</a>. New&nbsp;<a title="Object (computer science)" href="https://en.wikipedia.org/wiki/Object_(computer_science)">instances</a>&nbsp;of classes are constructed by calling the class (for example,&nbsp;<code>SpamClass()</code>&nbsp;or&nbsp;<code>EggsClass()</code>), and the classes are instances of the&nbsp;<a title="Metaclass" href="https://en.wikipedia.org/wiki/Metaclass">metaclass</a>&nbsp;<code>type</code>&nbsp;(itself an instance of itself), allowing&nbsp;<a title="Metaprogramming" href="https://en.wikipedia.org/wiki/Metaprogramming">metaprogramming</a>&nbsp;and&nbsp;<a class="mw-redirect" title="Reflection (computer science)" href="https://en.wikipedia.org/wiki/Reflection_(computer_science)">reflection</a>.</p>
+<p>Before version 3.0, Python had two kinds of classes:&nbsp;<em>old-style</em>&nbsp;and&nbsp;<em>new-style</em>.&nbsp;The syntax of both styles is the same, the difference being whether the class&nbsp;<code>object</code>&nbsp;is inherited from, directly or indirectly (all new-style classes inherit from&nbsp;<code>object</code>&nbsp;and are instances of&nbsp;<code>type</code>). In versions of Python 2 from Python 2.2 onwards, both kinds of classes can be used. Old-style classes were eliminated in Python 3.0.</p>
+<p>The long term plan is to support&nbsp;<a title="Gradual typing" href="https://en.wikipedia.org/wiki/Gradual_typing">gradual typing</a><sup id="cite_ref-84" class="reference"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)#cite_note-84">[84]</a></sup>&nbsp;and from Python 3.5, the syntax of the language allows specifying static types but they are not checked in the default implementation, CPython. An experimental optional static type checker named&nbsp;<em>mypy</em>&nbsp;supports compile-time type checking.</p>
+<p>&nbsp;</p>
+<table class="wikitable"><caption>Summary of Python 3's built-in types</caption>
+<tbody>
+<tr style="height: 13px;">
+<th style="height: 13px;">Type</th>
+<th style="height: 13px;"><a title="Immutable object" href="https://en.wikipedia.org/wiki/Immutable_object">Mutability</a></th>
+<th style="height: 13px;">Description</th>
+<th style="height: 13px;">Syntax examples</th>
+</tr>
+<tr style="height: 28px;">
+<td style="height: 28px;"><code>bool</code></td>
+<td style="height: 28px;">immutable</td>
+<td style="height: 28px;"><a class="mw-redirect" title="Boolean value" href="https://en.wikipedia.org/wiki/Boolean_value">Boolean value</a></td>
+<td style="height: 28px;"><code id="" class="mw-highlight" dir="ltr"><span class="bp">True</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="bp">False</span></code></td>
+</tr>
+<tr style="height: 42px;">
+<td style="height: 42px;"><code>bytearray</code></td>
+<td style="height: 42px;">mutable</td>
+<td style="height: 42px;">Sequence of&nbsp;<a title="Byte" href="https://en.wikipedia.org/wiki/Byte">bytes</a></td>
+<td style="height: 42px;"><code id="" class="mw-highlight" dir="ltr"><span class="nb">bytearray</span><span class="p">(</span><span class="sa">b</span><span class="s1">'Some ASCII'</span><span class="p">)</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="nb">bytearray</span><span class="p">(</span><span class="sa">b</span><span class="s2">"Some ASCII"</span><span class="p">)</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="nb">bytearray</span><span class="p">([</span><span class="mi">119</span><span class="p">,</span>&nbsp;<span class="mi">105</span><span class="p">,</span>&nbsp;<span class="mi">107</span><span class="p">,</span>&nbsp;<span class="mi">105</span><span class="p">])</span></code></td>
+</tr>
+<tr style="height: 42px;">
+<td style="height: 42px;"><code>bytes</code></td>
+<td style="height: 42px;">immutable</td>
+<td style="height: 42px;">Sequence of bytes</td>
+<td style="height: 42px;"><code id="" class="mw-highlight" dir="ltr"><span class="sa">b</span><span class="s1">'Some ASCII'</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="sa">b</span><span class="s2">"Some ASCII"</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="nb">bytes</span><span class="p">([</span><span class="mi">119</span><span class="p">,</span>&nbsp;<span class="mi">105</span><span class="p">,</span>&nbsp;<span class="mi">107</span><span class="p">,</span>&nbsp;<span class="mi">105</span><span class="p">])</span></code></td>
+</tr>
+<tr style="height: 14px;">
+<td style="height: 14px;"><code>complex</code></td>
+<td style="height: 14px;">immutable</td>
+<td style="height: 14px;"><a title="Complex number" href="https://en.wikipedia.org/wiki/Complex_number">Complex number</a>&nbsp;with real and imaginary parts</td>
+<td style="height: 14px;"><code id="" class="mw-highlight" dir="ltr"><span class="mi">3</span><span class="o">+</span><span class="mf">2.7j</span></code></td>
+</tr>
+<tr style="height: 28px;">
+<td style="height: 28px;"><code>dict</code></td>
+<td style="height: 28px;">mutable</td>
+<td style="height: 28px;"><a title="Associative array" href="https://en.wikipedia.org/wiki/Associative_array">Associative array</a>&nbsp;(or dictionary) of key and value pairs; can contain mixed types (keys and values), keys must be a hashable type</td>
+<td style="height: 28px;"><code id="" class="mw-highlight" dir="ltr"><span class="p">{</span><span class="s1">'key1'</span><span class="p">:</span>&nbsp;<span class="mf">1.0</span><span class="p">,</span>&nbsp;<span class="mi">3</span><span class="p">:</span>&nbsp;<span class="bp">False</span><span class="p">}</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="p">{}</span></code></td>
+</tr>
+<tr style="height: 28px;">
+<td style="height: 28px;"><code>ellipsis</code><sup id="ref_inaccessible-type" class="reference plainlinks nourlexpansion"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)#endnote_inaccessible-type">a</a></sup></td>
+<td style="height: 28px;">immutable</td>
+<td style="height: 28px;">An&nbsp;<a class="mw-redirect" title="Ellipsis (programming operator)" href="https://en.wikipedia.org/wiki/Ellipsis_(programming_operator)">ellipsis</a>&nbsp;placeholder to be used as an index in&nbsp;<a title="NumPy" href="https://en.wikipedia.org/wiki/NumPy">NumPy</a>&nbsp;arrays</td>
+<td style="height: 28px;"><code id="" class="mw-highlight" dir="ltr"><span class="o">...</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="bp">Ellipsis</span></code></td>
+</tr>
+<tr style="height: 30px;">
+<td style="height: 30px;"><code>float</code></td>
+<td style="height: 30px;">immutable</td>
+<td style="height: 30px;"><a class="mw-redirect" title="Double precision" href="https://en.wikipedia.org/wiki/Double_precision">Double precision</a>&nbsp;<a class="mw-redirect" title="Floating point" href="https://en.wikipedia.org/wiki/Floating_point">floating point</a>&nbsp;number. The precision is machine dependent but in practice is 64 bits.</td>
+<td style="height: 30px;"><code id="" class="mw-highlight" dir="ltr"><span class="mf">3.1415927</span></code></td>
+</tr>
+<tr style="height: 14.4375px;">
+<td style="height: 14.4375px;"><code>frozenset</code></td>
+<td style="height: 14.4375px;">immutable</td>
+<td style="height: 14.4375px;">Unordered&nbsp;<a class="mw-redirect" title="Set (computer science)" href="https://en.wikipedia.org/wiki/Set_(computer_science)">set</a>, contains no duplicates; can contain mixed types, if hashable</td>
+<td style="height: 14.4375px;"><code id="" class="mw-highlight" dir="ltr"><span class="nb">frozenset</span><span class="p">([</span><span class="mf">4.0</span><span class="p">,</span>&nbsp;<span class="s1">'string'</span><span class="p">,</span>&nbsp;<span class="bp">True</span><span class="p">])</span></code></td>
+</tr>
+<tr style="height: 15px;">
+<td style="height: 15px;"><code>int</code></td>
+<td style="height: 15px;">immutable</td>
+<td style="height: 15px;"><a title="Integer (computer science)" href="https://en.wikipedia.org/wiki/Integer_(computer_science)">Integer</a>&nbsp;of unlimited magnitude</td>
+<td style="height: 15px;"><code id="" class="mw-highlight" dir="ltr"><span class="mi">42</span></code></td>
+</tr>
+<tr style="height: 28px;">
+<td style="height: 28px;"><code>list</code></td>
+<td style="height: 28px;">mutable</td>
+<td style="height: 28px;"><a class="mw-redirect" title="List (computer science)" href="https://en.wikipedia.org/wiki/List_(computer_science)">List</a>, can contain mixed types</td>
+<td style="height: 28px;"><code id="" class="mw-highlight" dir="ltr"><span class="p">[</span><span class="mf">4.0</span><span class="p">,</span>&nbsp;<span class="s1">'string'</span><span class="p">,</span>&nbsp;<span class="bp">True</span><span class="p">]</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="p">[]</span></code></td>
+</tr>
+<tr style="height: 16px;">
+<td style="height: 16px;"><code>NoneType</code><sup id="ref_inaccessible-type" class="reference plainlinks nourlexpansion"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)#endnote_inaccessible-type">a</a></sup></td>
+<td style="height: 16px;">immutable</td>
+<td style="height: 16px;">An object representing the absence of a value, often called&nbsp;<a title="Null pointer" href="https://en.wikipedia.org/wiki/Null_pointer">Null</a>&nbsp;in other languages</td>
+<td style="height: 16px;"><code id="" class="mw-highlight" dir="ltr"><span class="bp">None</span></code></td>
+</tr>
+<tr style="height: 16px;">
+<td style="height: 16px;"><code>NotImplementedType</code><sup id="ref_inaccessible-type" class="reference plainlinks nourlexpansion"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)#endnote_inaccessible-type">a</a></sup></td>
+<td style="height: 16px;">immutable</td>
+<td style="height: 16px;">A placeholder that can be returned from&nbsp;<a title="Operator overloading" href="https://en.wikipedia.org/wiki/Operator_overloading">overloaded operators</a>&nbsp;to indicate unsupported operand types.</td>
+<td style="height: 16px;"><code id="" class="mw-highlight" dir="ltr"><span class="bp">NotImplemented</span></code></td>
+</tr>
+<tr style="height: 28px;">
+<td style="height: 28px;"><code>range</code></td>
+<td style="height: 28px;">immutable</td>
+<td style="height: 28px;">A Sequence of numbers commonly used for looping specific number of times in&nbsp;<code>for</code>&nbsp;loops</td>
+<td style="height: 28px;"><code id="" class="mw-highlight" dir="ltr"><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span>&nbsp;<span class="mi">10</span><span class="p">)</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span>&nbsp;<span class="o">-</span><span class="mi">5</span><span class="p">,</span>&nbsp;<span class="o">-</span><span class="mi">2</span><span class="p">)</span></code></td>
+</tr>
+<tr style="height: 28px;">
+<td style="height: 28px;"><code>set</code></td>
+<td style="height: 28px;">mutable</td>
+<td style="height: 28px;">Unordered&nbsp;<a class="mw-redirect" title="Set (computer science)" href="https://en.wikipedia.org/wiki/Set_(computer_science)">set</a>, contains no duplicates; can contain mixed types, if hashable</td>
+<td style="height: 28px;"><code id="" class="mw-highlight" dir="ltr"><span class="p">{</span><span class="mf">4.0</span><span class="p">,</span>&nbsp;<span class="s1">'string'</span><span class="p">,</span>&nbsp;<span class="bp">True</span><span class="p">}</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="nb">set</span><span class="p">()</span></code></td>
+</tr>
+<tr style="height: 89px;">
+<td style="height: 89px;"><code>str</code></td>
+<td style="height: 89px;">immutable</td>
+<td style="height: 89px;">A&nbsp;<a title="String (computer science)" href="https://en.wikipedia.org/wiki/String_(computer_science)">character string</a>: sequence of Unicode codepoints</td>
+<td style="height: 89px;"><code id="" class="mw-highlight" dir="ltr"><span class="s1">'Wikipedia'</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="s2">"Wikipedia"</span></code><br />
+<div class="mw-highlight mw-content-ltr" dir="ltr">
+<pre><span class="sd">"""Spanning</span>
+<span class="sd">multiple</span>
+<span class="sd">lines"""</span>
+</pre>
+</div>
+</td>
+</tr>
+<tr style="height: 42px;">
+<td style="height: 42px;"><code>tuple</code></td>
+<td style="height: 42px;">immutable</td>
+<td style="height: 42px;">Can contain mixed types</td>
+<td style="height: 42px;"><code id="" class="mw-highlight" dir="ltr"><span class="p">(</span><span class="mf">4.0</span><span class="p">,</span>&nbsp;<span class="s1">'string'</span><span class="p">,</span>&nbsp;<span class="bp">True</span><span class="p">)</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="p">(</span><span class="s1">'single element'</span><span class="p">,)</span></code><br /><code id="" class="mw-highlight" dir="ltr"><span class="p">()</span></code></td>
+</tr>
+</tbody>
+</table>
+<p><span id="endnote_inaccessible-type" class="citation wikicite"><strong><a href="https://en.wikipedia.org/wiki/Python_(programming_language)#ref_inaccessible-type">^a</a></strong>&nbsp;Not directly accessible by name</span></p>
+<h3><span id="Mathematics" class="mw-headline">Mathematics</span></h3>
+<p>Python has the usual symbols for arithmetic operators (<code>+</code>,&nbsp;<code>-</code>,&nbsp;<code>*</code>,&nbsp;<code>/</code>), and the&nbsp;<a title="Modulo operation" href="https://en.wikipedia.org/wiki/Modulo_operation">remainder operator</a>&nbsp;<code>%</code>&nbsp;(where the remainder can be negative, e.g.&nbsp;<code>4&nbsp;% -3 == -2</code>). It also has&nbsp;<code>**</code>&nbsp;for exponentiation, e.g.&nbsp;<code>5**3 == 125</code>&nbsp;and&nbsp;<code>9**0.5 == 3.0</code>, and a matrix multiply&nbsp;<code>@</code>&nbsp;operator.<sup id="cite_ref-88" class="reference"><a href="https://en.wikipedia.org/wiki/Python_(programming_language)#cite_note-88">[88]</a></sup>&nbsp;These operators work like in traditional math; with the same&nbsp;<a title="Order of operations" href="https://en.wikipedia.org/wiki/Order_of_operations">precedence rules</a>, the operators&nbsp;<a title="Infix notation" href="https://en.wikipedia.org/wiki/Infix_notation">infix</a>&nbsp;(&nbsp;<code>+</code>&nbsp;and&nbsp;<code>-</code>&nbsp;can also be unary to represent positive and negative numbers respectively). Additionally, it has a unary operator (<code>~</code>), which essentially inverts all the bits of its one argument. For integers, this means&nbsp;<code>~x=-x-1</code>.&nbsp;Other operators include bitwise shift operators&nbsp;<code>x &lt;&lt; y</code>, which shifts&nbsp;<code>x</code>&nbsp;to the left&nbsp;<code>y</code>&nbsp;places, the same as&nbsp;<code>x*(2**y)&nbsp;</code>, and&nbsp;<code>x &gt;&gt; y</code>, which shifts&nbsp;<code>x</code>&nbsp;to the right&nbsp;<code>y</code>&nbsp;places, the same as&nbsp;<code>x//(2**y)</code>.</p>
+<p>The behavior of division has changed significantly over time so that division between integers produces floating point results:</p>
+<ul>
+<li>Python 2.1 and earlier use the C division behavior. The&nbsp;<code>/</code>&nbsp;operator is integer division if both operands are integers, and floating-point division otherwise. Integer division rounds towards 0, e.g.&nbsp;<span class="nowrap"><code>7/3 == 2</code></span>&nbsp;and&nbsp;<span class="nowrap"><code>-7/3 == -2</code>.</span></li>
+<li>Python 2.2 changes integer division to round towards negative infinity, e.g.&nbsp;<code>7/3 == 2</code>&nbsp;and&nbsp;<code>-7/3 == -3</code>. The floor division&nbsp;<code>//</code>&nbsp;operator is introduced. So&nbsp;<code>7//3 == 2</code>,&nbsp;<code>-7//3 == -3</code>,&nbsp;<code>7.5//3 == 2.0</code>&nbsp;and&nbsp;<code>-7.5//3 == -3.0</code>. Adding&nbsp;<code>from __future__ import division</code>&nbsp;causes a module to use Python 3.0 rules for division (see next).</li>
+<li>Python 3.0 changes&nbsp;<code>/</code>&nbsp;to always be floating-point division, e.g.&nbsp;<span class="nowrap"><code>5/2 == 2.5</code></span>.</li>
+</ul>
+<p>In Python terms,&nbsp;<code>/</code>&nbsp;before version 3.0 is&nbsp;<em>classic division</em>,&nbsp;<code>/</code>&nbsp;in versions 3.0 and higher is&nbsp;<em>true division</em>, and&nbsp;<code>//</code>&nbsp;is&nbsp;<em>floor division</em>.</p>
+<p>Rounding towards negative infinity, though different from most languages, adds consistency. For instance, it means that the equation&nbsp;<code>(a + b)//b == a//b + 1</code>&nbsp;is always true. It also means that the equation&nbsp;<code>b*(a//b) + a%b == a</code>&nbsp;is valid for both positive and negative values of&nbsp;<code>a</code>. However, maintaining the validity of this equation means that while the result of&nbsp;<code>a%b</code>&nbsp;is, as expected, in the&nbsp;<a class="mw-redirect" title="Half-open interval" href="https://en.wikipedia.org/wiki/Half-open_interval">half-open interval</a>&nbsp;[0,&nbsp;<em>b</em>), where&nbsp;<code>b</code>&nbsp;is a positive integer, it has to lie in the interval (<em>b</em>, 0] when&nbsp;<code>b</code>&nbsp;is negative.</p>
+<p>Python provides a&nbsp;<code>round</code>&nbsp;function for&nbsp;<a title="Rounding" href="https://en.wikipedia.org/wiki/Rounding">rounding</a>&nbsp;a float to the nearest integer. For&nbsp;<a title="Rounding" href="https://en.wikipedia.org/wiki/Rounding#Tie-breaking">tie-breaking</a>, versions before 3 use round-away-from-zero:&nbsp;<code>round(0.5)</code>&nbsp;is 1.0,&nbsp;<code>round(-0.5)</code>&nbsp;is &minus;1.0.&nbsp;Python 3 uses&nbsp;<a class="mw-redirect" title="Round to even" href="https://en.wikipedia.org/wiki/Round_to_even">round to even</a>:&nbsp;<code>round(1.5)</code>&nbsp;is 2,&nbsp;<code>round(2.5)</code>&nbsp;is 2.</p>
+<p>Python allows boolean expressions with multiple equality relations in a manner that is consistent with general use in mathematics. For example, the expression&nbsp;<code>a &lt; b &lt; c</code>&nbsp;tests whether&nbsp;<code>a</code>&nbsp;is less than&nbsp;<code>b</code>&nbsp;and&nbsp;<code>b</code>&nbsp;is less than&nbsp;<code>c</code>.&nbsp;C-derived languages interpret this expression differently: in C, the expression would first evaluate&nbsp;<code>a &lt; b</code>, resulting in 0 or 1, and that result would then be compared with&nbsp;<code>c</code>.</p>
+<p>Python has extensive built-in support for&nbsp;<a title="Arbitrary-precision arithmetic" href="https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic">arbitrary-precision arithmetic</a>. Integers are transparently switched from the machine-supported maximum fixed-precision (usually 32 or 64 bits), belonging to the python type&nbsp;<code>int</code>, to arbitrary precision, belonging to the Python type&nbsp;<code>long</code>, where needed. The latter have an "L" suffix in their textual representation.&nbsp;(In Python 3, the distinction between the&nbsp;<code>int</code>&nbsp;and&nbsp;<code>long</code>&nbsp;types was eliminated; this behavior is now entirely contained by the&nbsp;<code>int</code>&nbsp;class.) The&nbsp;<code>Decimal</code>&nbsp;type/class in module&nbsp;<code>decimal</code>&nbsp;(since version 2.4) provides decimal floating point numbers to arbitrary precision and several rounding modes.&nbsp;The&nbsp;<code>Fraction</code>&nbsp;type in module&nbsp;<code>fractions</code>&nbsp;(since version 2.6) provides arbitrary precision for rational numbers.</p>
+<p>Due to Python's extensive mathematics library, and the third-party library&nbsp;<a title="NumPy" href="https://en.wikipedia.org/wiki/NumPy">NumPy</a>&nbsp;that further extends the native capabilities, it is frequently used as a scientific scripting language to aid in problems such as numerical data processing and manipulation.</p>
 
 
 
