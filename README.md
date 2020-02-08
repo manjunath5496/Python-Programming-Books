@@ -38,6 +38,7 @@
 <li class="toclevel-1 tocsection-21"><a href="#API_documentation_generators"><span class="toctext">API documentation generators</span></a></li>
 <li class="toclevel-1 tocsection-22"><a href="#Uses"><span class="toctext">Uses</span></a></li>
 <li class="toclevel-1 tocsection-23"><a href="#Languages_influenced_by_Python"><span class="toctext">Languages influenced by Python</span></a></li>
+  <li class="toclevel-1 tocsection-23"><a href="#Books"><span class="toctext">Books</span></a></li>
 </ul>
 
 <h2><span id="History" class="mw-headline">History</span></h2>
@@ -424,9 +425,9 @@ print(fact)
 <li><a class="mw-redirect" title="Gdscript" href="https://en.wikipedia.org/wiki/Gdscript">GDScript</a>, dynamically typed programming language used to create video-games. It is extremely similar to Python with a few minor differences.</li>
 </ul>
 <p>Python's development practices have also been emulated by other languages. For example, the practice of requiring a document describing the rationale for, and issues surrounding, a change to the language (in Python, a PEP) is also used in&nbsp;<a title="Tcl" href="https://en.wikipedia.org/wiki/Tcl">Tcl</a>&nbsp;and&nbsp;<a title="Erlang (programming language)" href="https://en.wikipedia.org/wiki/Erlang_(programming_language)">Erlang</a>.</p>
+</br>
 
-
-
+<h2><span id="Books" class="mw-headline">Books:</span></h2>
 
 <ul>
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(1).pdf" style="text-decoration:none;">Machine Learning in Python</a></b></li>
