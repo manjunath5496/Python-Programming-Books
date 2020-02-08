@@ -40,7 +40,22 @@
 <li class="toclevel-1 tocsection-23"><a href="#Languages_influenced_by_Python"><span class="toctext">Languages influenced by Python</span></a></li>
 </ul>
 
+<h2><span id="History" class="mw-headline">History</span></h2>
+<p>&nbsp;</p>
+<div class="thumb tright">
+<div class="thumbinner"><a class="image" href="ros.png"><img class="thumbimage" src="ros.png" srcset="ros.png" alt="" width="150" height="225" data-file-width="1175" data-file-height="1762" /></a>
+<div class="thumbcaption">
+<div class="magnify">&nbsp;</div>
+<strong><a title="Guido van Rossum" href="https://en.wikipedia.org/wiki/Guido_van_Rossum">Guido van Rossum</a>&nbsp;at OSCON 2006</strong></div>
+</div>
+</div>
+<div class="hatnote navigation-not-searchable">&nbsp;</div>
+<p>Python was conceived in the late 1980s&nbsp;by&nbsp;<a title="Guido van Rossum" href="https://en.wikipedia.org/wiki/Guido_van_Rossum">Guido van Rossum</a>&nbsp;at&nbsp;<a title="Centrum Wiskunde &amp; Informatica" href="https://en.wikipedia.org/wiki/Centrum_Wiskunde_%26_Informatica">Centrum Wiskunde &amp; Informatica</a>&nbsp;(CWI) in the&nbsp;<a title="Netherlands" href="https://en.wikipedia.org/wiki/Netherlands">Netherlands</a>&nbsp;as a successor to the&nbsp;<a title="ABC (programming language)" href="https://en.wikipedia.org/wiki/ABC_(programming_language)">ABC language</a>&nbsp;(itself inspired by&nbsp;<a title="SETL" href="https://en.wikipedia.org/wiki/SETL">SETL</a>), capable of&nbsp;<a title="Exception handling" href="https://en.wikipedia.org/wiki/Exception_handling">exception handling</a>&nbsp;and interfacing with the&nbsp;<a title="Amoeba (operating system)" href="https://en.wikipedia.org/wiki/Amoeba_(operating_system)">Amoeba</a>&nbsp;operating system.&nbsp;Its implementation began in December 1989.&nbsp;Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's&nbsp;<em><a class="mw-redirect" title="Benevolent Dictator For Life" href="https://en.wikipedia.org/wiki/Benevolent_Dictator_For_Life">Benevolent Dictator For Life</a></em>, a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker.&nbsp;He now shares his leadership as a member of a five-person steering council.&nbsp;In January 2019, active Python core developers elected Brett Cannon, Nick Coghlan, Barry Warsaw, Carol Willing and Van Rossum to a five-member "Steering Council" to lead the project.</p>
+<p>Python 2.0 was released on 16 October 2000 with many major new features, including a&nbsp;<a title="Cycle detection" href="https://en.wikipedia.org/wiki/Cycle_detection">cycle-detecting</a>&nbsp;<a title="Garbage collection (computer science)" href="https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)">garbage collector</a>&nbsp;and support for&nbsp;<a title="Unicode" href="https://en.wikipedia.org/wiki/Unicode">Unicode</a>.</p>
+<p>Python 3.0 was released on 3 December 2008. It was a major revision of the language that is not completely&nbsp;<a title="Backward compatibility" href="https://en.wikipedia.org/wiki/Backward_compatibility">backward-compatible</a>.&nbsp;Many of its major features were&nbsp;<a title="Backporting" href="https://en.wikipedia.org/wiki/Backporting">backported</a>&nbsp;to Python 2.6.x&nbsp;and 2.7.x version series. Releases of Python 3 include the&nbsp;<code>2to3</code>&nbsp;utility, which automates (at least partially) the translation of Python 2 code to Python 3.</p>
+<p>Python 2.7's&nbsp;<a title="End-of-life (product)" href="https://en.wikipedia.org/wiki/End-of-life_(product)">end-of-life</a>&nbsp;date was initially set at 2015 then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3.</p>
 
+</br>
 
 <ul>
                                 <li><b><a target="_blank" href="https://github.com/manjunath5496/Python-Programming-Books/blob/master/py(1).pdf" style="text-decoration:none;">Machine Learning in Python</a></b></li>
